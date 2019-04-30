@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .topnav {
+          overflow: hidden;
+          background-color:rgb(27, 27, 27);
+        }
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        .topnav a:hover {
+          background-color: white;
+          color: black;
+        }
+        .topnav a.active {
+          background-color: #67A15E;
+          color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>CSS3</title>
+</head>
+<body style="background-color: rgb(27, 27, 27)">
+    <div class="topnav">
+        <a class="active" onclick="jump_to(0)">CSS3 Home</a>
+        <a onclick="jump_to(1)">General</a>
+        <a onclick="jump_to(2)">Comparison</a>
+        <a onclick="jump_to(3)">Diagram</a>
+        <a onclick="jump_to(4)">Advantages</a>
+        <a onclick="jump_to(5)">Disadvantages</a>
+        <a onclick="jump_to(6)">Sources</a>
+        <a style="float: right" href="https://github.com/KendrickLiang" target="_blank">By Kendrick Liang</a>
+      </div>
+  <div>
+    <img src="/static/css3 (0).jpg" id="image" style="padding-left: 18%">
+    <br>
+  </div>
+  <div>
+    <img src="/static/left_arrow.png" id="l_arr" width="50px" height="50px" style="float: left;opacity: 0.5;">
+  </div>
+  <div style="background-color: white">
+    <img src="/static/right arrow.png" id="r_arr" width="50px" height="50px" style="float:right;">
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
